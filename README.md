@@ -22,7 +22,18 @@ The data is stored in **MongoDB** and displayed dynamically on the frontend.
 ├── package.json # Dependencies & scripts
 
 
+## 🐳 Run with Docker
 
+1. Build the Docker image:
+   ```bash
+   docker build -t user-management-system .
+
+2.Run the container:
+docker run -p 3000:3000 user-management-system
+
+3.Open in your browser:
+http://localhost:3000
+                OR
 ## ⚙️ Installation & Setup
 1. Clone the repository  
    ```bash
